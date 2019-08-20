@@ -7,7 +7,7 @@
     "client": "cd client && yarn start",
     "server": "nodemon app.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
-    "heroku-postbuild": "yarn server && yarn client"
+    "heroku-postbuild": "cd client && npm start && npm app.js"
   },
   "author": "",
   "license": "ISC",
