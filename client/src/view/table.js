@@ -5,7 +5,7 @@ import TableTable from '../component/TableTable'
 class Table extends Component {
   render() {
     return (
-      <Layout title='Drink'>
+      <Layout title='Table'>
         <div>
           <div>
 

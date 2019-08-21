@@ -5,7 +5,7 @@ import AccountTable from '../component/AccountTable'
 class Account extends Component {
   render() {
     return (
-      <Layout title='Category'>
+      <Layout title='Account'>
         <div>
           <div>
 

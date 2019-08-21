@@ -5,7 +5,7 @@ import BillTable from '../component/BillTable'
 class Bill extends Component {
   render() {
     return (
-      <Layout title='Category'>
+      <Layout title='Bill'>
         <div>
           <div>
 
